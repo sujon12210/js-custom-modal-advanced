@@ -1,0 +1,30 @@
+body{
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#f8fafc;
+}
+
+button{
+  padding:10px 16px;
+  cursor:pointer;
+}
+
+.overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.5);
+  display:none;
+  justify-content:center;
+  align-items:center;
+}
+
+.modal{
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  width:300px;
+  text-align:center;
+}
